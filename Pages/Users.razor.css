@@ -1,0 +1,21 @@
+﻿.userHeading { /*2. userPageTitle 3. userPageHeader*/
+    display: flex;
+    justify-content: space-between;
+    color: #640ad7; /*2. pink 3. grey*/
+}
+
+.UserTitled { /*2. Title 3.Pagetitle*/
+    font-weight: bold;
+}
+
+.AddButton { /*2.buttonAdd 3. Button*/
+    background: #640ad7; /*2. pink 3. grey*/
+    height: 40px;
+    width: 85px;
+    border-radius: 10px;
+}
+
+.table { /*2. userTable 3. userstable*/
+    background: #be96f1; /*2. pink 3. grey*/
+    
+}

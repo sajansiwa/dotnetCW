@@ -1,0 +1,39 @@
+﻿.InventoryHeader { /*2. InventorPageTitle 3. InventorPageHeader*/
+    display: flex;
+    justify-content: space-between;
+    color: #640ad7; /*2. pink 3. grey*/
+    font-weight: bold;
+}
+
+.InvTitle { /*2. Title 3.Pagetitle*/
+    font-weight: bold;
+}
+
+.addbtn { /*2.buttonAdd 3. Button*/
+    background: #640ad7; /*2. pink 3. grey*/
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.tblrow { /*2. TableRows 3. Rows*/
+    background: #be96f1; /*2. pink 3. grey*/
+}
+
+.btn1 { /*2. aprove 3. aprovebtn*/
+    height: 45px;
+    width: 90px;
+    border-radius: 10px;
+    border: 2px solid green;
+    align-items: center;
+    margin-right:20px;
+}
+
+.btn2 { /*1. reject 2. rejectbtn*/
+    height: 45px;
+    width: 90px;
+    border-radius: 10px;
+    border: 2px solid red;
+    align-items: center;
+    margin-left: 20px;
+}

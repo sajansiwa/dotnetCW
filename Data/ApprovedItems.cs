@@ -1,20 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Todo.Data
 {
+
     public class ApprovedItem
     {
         public Guid Id { get; set; } = Guid.NewGuid();
 
-        [Required(ErrorMessage = "Please provide the task name.")]
+        [Required(ErrorMessage = "Please insert item name.")]
         public string ItemName { get; set; }
 
-        [Required(ErrorMessage = "Please provide the Required Quantity.")]
+        [Required(ErrorMessage = "Please insert the Quantity.")] 
         public Guid ItemId { get; set; }
         public int Quantity { get; set; }
         public bool IsApproved { get; set; }

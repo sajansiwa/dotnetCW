@@ -1,5 +1,5 @@
 ﻿
-.loginContainer { /*2. loginBody  3. loginWraper*/
+.loginContainer { 
     display: flex;
     align-items: center;
     padding-top: 40px;
@@ -8,43 +8,26 @@
     
 }
 
-.loginForm { /*2. loginFormContainer  3. loginFormWraper*/
+.loginForm {
     width: 100%;
     max-width: 330px;
     padding: 15px;
     margin: auto;
-    /*background: pink;*/ /*for simmant*/
-    /* background: grey;*/ /*for prazol*/
-    background: #e3d8f1;
+    /*background: #e3d8f1;*/
+    background: linear-gradient(110deg, rgba(146,244,241,1) 0%, rgba(42,94,105,1) 35%, rgba(0,212,255,1) 100%);
 }
 
-/*.form-login .form-floating:focus-within {
-    z-index: 2;
-}
-
-.form-login .username {
-    margin-bottom: -1px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-}
-
-.form-login .password {
-    margin-bottom: 10px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-}*/
-
-.Input { /*2. userInput 3.usercredntials*/
+.Input { 
     margin: 40px;
 }
 
-.inputField { /* 2. inputbox 3. textBox */
+.inputField { 
     border-radius: 4px;
     width: 100%;
     height: 40px;
 }
 
-.LoginButton { /*1. signinButton 2.login*/
+.LoginButton { 
     width: 50%;
     border-radius: 4px;
     background: red;
@@ -54,10 +37,10 @@
     width: 100px;
 }
 
-.LoginHead{ /*2. loginTitle 3. loginHeader*/
+.LoginHead{ 
     font-weight: bold;
 }
 
-cred { /* 2. credentials* 3. defaultCred*/
+cred { 
 margin: 0;
 }

@@ -1,26 +1,26 @@
-﻿.InventoryHeader { /*2. InventorPageTitle 3. InventorPageHeader*/
+﻿.InventoryHeader { 
     display: flex;
     justify-content: space-between;
-    color: #640ad7; /*2. pink 3. grey*/
+    color: black; 
     font-weight: bold;
 }
 
-.InvTitle { /*2. Title 3.Pagetitle*/
+.InvTitle { 
     font-weight: bold;
 }
 
-.addbtn { /*2.buttonAdd 3. Button*/
-    background: #640ad7; /*2. pink 3. grey*/
+.addbtn { 
+    background: #640ad7; 
     height: 40px;
     width: 120px;
     border-radius: 10px;
 }
 
-.tblrow { /*2. TableRows 3. Rows*/
-    background: #be96f1; /*2. pink 3. grey*/
+.tblrow { 
+    background: #be96f1; 
 }
 
-.btn1 { /*2. aprove 3. aprovebtn*/
+.btn1 { 
     height: 45px;
     width: 90px;
     border-radius: 10px;

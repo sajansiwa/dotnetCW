@@ -1,4 +1,6 @@
 ﻿.graphHeader {
-    color: #640ad7;
+    display: flex;
+    color: black;
     font-weight: bold;
+    justify-content: center;
 }

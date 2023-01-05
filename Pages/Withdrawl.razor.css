@@ -1,16 +1,15 @@
-﻿.pageHeader { /*2. withdrawnPageTitle 3. withdrawnPageHeader*/
-    color: #640ad7; /*2. pink 3. grey*/
-}
-
-.UserTitled { /*2. Title 3.Pagetitle*/
+﻿.pageHeader {
+    color: black;
     font-weight: bold;
 }
 
-.tableRows { /*2. withdrawnTableRows 3. withdrawnRows*/
-    background: #be96f1; /*2. pink 3. grey*/
+
+
+.tableRows { 
+    background: #be96f1; 
 }
 
-.btn1 { /*2. aprove 3. aprovebtn*/
+.btn1 { 
     height: 45px;
     width: 90px;
     border-radius: 10px;
@@ -18,7 +17,7 @@
     align-items: center;
 }
 
-.btn2 { /*1. reject 2. rejectbtn*/
+.btn2 { 
     height: 45px;
     width: 90px;
     border-radius: 10px;

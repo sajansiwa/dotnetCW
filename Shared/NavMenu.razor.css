@@ -25,14 +25,16 @@
 
     .nav-item:first-of-type {
         padding-top: 1rem;
+        color: black;
     }
 
     .nav-item:last-of-type {
         padding-bottom: 1rem;
+        color: black;
     }
 
     .nav-item ::deep a {
-        color: #d7d7d7;
+        color: black;
         border-radius: 4px;
         height: 3rem;
         display: flex;
@@ -42,13 +44,13 @@
 
 .nav-item ::deep a.active {
     background-color: rgba(255,255,255,0.25);
-    color: white;
+    color: black;
 }
 
-.nav-item ::deep a:hover {
-    background-color: rgba(255,255,255,0.1);
-    color: white;
-}
+        .nav-item ::deep a:hover {
+            background-color: rgba(255,255,255,0.1);
+            color: Black;
+        }
 
 @media (min-width: 641px) {
     .navbar-toggler {

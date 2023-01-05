@@ -1,16 +1,16 @@
-﻿.staffHeader { /*2. staffPageTitle 3. staffPageHeader*/
+﻿.staffHeader { 
     display: flex;
     justify-content: space-between;
-    color: #640ad7; /*2. pink 3. grey*/
+    color: black; 
     font-weight: bold;
 }
 
-.InvTitle { /*2. Title 3.Pagetitle*/
+.InvTitle { 
     font-weight: bold;
 }
 
-.addbtn { /*2.buttonAdd 3. Button*/
-    background: #640ad7; /*2. pink 3. grey*/
+.addbtn { 
+    background: #640ad7; 
     height: 40px;
     width: 120px;
     border-radius: 10px;
@@ -20,12 +20,12 @@
     width: 100%;
 }
 
-.rows { /*2. withdrawnTableRows 3. withdrawnRows*/
-    background: #be96f1; /*2. pink 3. grey*/
+.rows { 
+    background: #be96f1;
     
 }
 
-.btnn { /*2. aprove 3. aprovebtn*/
+.btnn { 
     height: 45px;
     width: 150px;
     border-radius: 10px;

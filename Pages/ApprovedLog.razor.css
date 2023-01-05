@@ -1,9 +1,8 @@
-﻿.approvedHeader { /*2. approvedPageTitle 3.approvedPageHeader*/
-    color: #640ad7; /*2. pink 3. grey*/
+﻿.approvedHeader { 
+    color: black; 
+    font-weight: bold;
 }
 
-
-
-.tblRows { /*2. withdrawnTableRows 3. withdrawnRows*/
-    background: #be96f1; /*2. pink 3. grey*/
+.tblRows { 
+    background: #be96f1; 
 }
